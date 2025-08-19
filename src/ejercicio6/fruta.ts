@@ -40,12 +40,6 @@ export default class Fruta{
         this.esEstacional = esEstacional
     }
 
-    public esComestible(){
-        return this.peso < 200 && this.esEstacional
-    }
-
-    public getValores(){
-        return `El color es ${this.color} , su peso es: ${this.peso} `
-    }
+    
 
 }
